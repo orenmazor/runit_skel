@@ -1,0 +1,5 @@
+#!/bin/bash
+
+export FOO=BAR
+cd /opt
+exec echo $FOO
