@@ -1,3 +1,4 @@
 #!/bin/bash
 
-exec svlogd -tt ./main
+exec mkdir -p /var/log/foo/
+exec svlogd -tt /var/log/foo
